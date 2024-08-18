@@ -119,8 +119,8 @@ function main(){
     })
 
     dom.magnify.addEventListener("click",(event)=>{
-        if(event.target.value != ""){
-            let ubication = event.target.value;
+        if(dom.input.value != ""){
+            let ubication = dom.input.value;
             wheatherReport(ubication,dom);
         }
     })
